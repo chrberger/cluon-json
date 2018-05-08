@@ -1,0 +1,10 @@
+message example.Ping [id = 2221] {
+    uint32 number   [id = 1];
+    string text     [id = 2];
+}
+
+message example.Pong [id = 2222] {
+    string text     [id = 1];
+    float number    [id = 2];
+}
+
