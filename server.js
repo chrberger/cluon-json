@@ -27,7 +27,7 @@ const fs = require('fs');
 const WebSocket = require('ws');
 const express = require('express');
 const bodyParser = require('body-parser');
-const libcluon = require('./libcluon-0.0.89');
+const libcluon = require('./libcluon-0.0.104');
 
 var g_receivedMessage = "";
 var g_libcluon = libcluon();
